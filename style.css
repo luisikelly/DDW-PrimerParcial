@@ -45,13 +45,24 @@ main{
     margin-top: 20px;
     margin-bottom: 40px;
 }
+.campo-ficha{
+    display: flex;
+    align-items: center;
 
+}
 
 @media (max-width: 768px){
     main{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    header{
+        text-align: center;  
+        font-size: 10pt; 
+    }
+    p{
+        font-size: 9pt;
     }
     .foto{
         width: 150px;
