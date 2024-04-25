@@ -48,9 +48,15 @@ main{
 
 
 @media (max-width: 768px){
- .foto{
-    width: 150px;
-    height: 250px;
-    margin-left: 10px;
- }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foto{
+        width: 150px;
+        height: 250px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
 }
