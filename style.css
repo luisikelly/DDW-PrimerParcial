@@ -28,6 +28,9 @@ main{
     grid-template-columns: auto auto;
     grid-template-rows: auto;
 }
+a{
+    margin-right: 10px;
+}
 .ficha{
     grid-column: 2;
 }
