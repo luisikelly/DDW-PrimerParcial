@@ -68,8 +68,8 @@ a{
         font-size: 9pt;
     }
     .foto{
+        height: 200px;
         width: auto;
-        height: 250px;
         margin-left: 10px;
         margin-bottom: 10px;
     }
